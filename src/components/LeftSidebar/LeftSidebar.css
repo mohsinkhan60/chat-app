@@ -1,0 +1,74 @@
+.ls{
+   background: #001030;
+   height: 75vh;
+}
+.ls-top{
+   padding: 20px;
+}
+.ls-nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.ls-nav .logo{
+   max-width: 140px;
+}
+.ls-nav .menu img{
+   max-height: 20px;
+}
+.ls-search{
+   background-color: #002670;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px 12px;
+   margin-top: 20px;
+}
+.ls-search img{
+   max-height: 16px;
+}
+.ls-search input{
+   background: transparent;
+   border: none;
+   outline: none;
+   color: #fff;
+   font-size: 11px;
+}
+.ls-search input::placeholder{
+   color: #fff;
+}
+.ls-list{
+   display: flex;
+   flex-direction: column;
+   height: 70%;
+   overflow-y: scroll;
+   color: white;
+}
+.friends img{
+   width: 35px;
+   aspect-ratio: 1/1;
+   border-radius: 50%;
+}
+.friends{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   padding: 10px 20px;
+   cursor: pointer;
+   font-size: 13px;
+}
+.friends div{
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+.friends span{
+   font-size: 11px;
+   color: #9f9f9f;
+}
+.friends:hover{
+   background-color: #077EFF;
+}
+.friends:hover span{
+   color: white;
+}
